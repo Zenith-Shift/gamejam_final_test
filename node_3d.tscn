@@ -1,9 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bluwlj0p2ym6f"]
+[gd_scene load_steps=5 format=3 uid="uid://br7msbnc7nljk"]
 
-[ext_resource type="ArrayMesh" uid="uid://d2qxq3e0o6f2t" path="res://test_plane.obj" id="1_i6yro"]
-[ext_resource type="ArrayMesh" uid="uid://cgl0s6j3dk4lc" path="res://test_rock1.obj" id="2_csxkd"]
-[ext_resource type="ArrayMesh" uid="uid://dsyraynl5hv6u" path="res://test_rock2.obj" id="3_1kk5u"]
-[ext_resource type="ArrayMesh" uid="uid://cq54f45jsxm3r" path="res://test_tree.obj" id="4_fn8l2"]
+[ext_resource type="ArrayMesh" path="res://test_plane.obj" id="1_i6yro"]
+[ext_resource type="ArrayMesh" path="res://test_rock1.obj" id="2_csxkd"]
+[ext_resource type="ArrayMesh" path="res://test_rock2.obj" id="3_1kk5u"]
+[ext_resource type="ArrayMesh" path="res://test_tree.obj" id="4_fn8l2"]
 
 [node name="Node3D" type="Node3D"]
 
