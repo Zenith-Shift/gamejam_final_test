@@ -12,13 +12,29 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0168762, -0.0197496, 0.0686
 mesh = ExtResource("1_csrf7")
 
 [node name="TestRock1" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.012918, 1.43981, -0.044105)
+transform = Transform3D(0.265589, -0.35612, 0.895903, 0.884326, -0.280113, -0.373502, 0.383965, 0.891468, 0.240531, 7.02551, 0.582241, 7.40598)
 mesh = ExtResource("2_qenfe")
 
 [node name="TestRock2" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50898, -4.5545)
+transform = Transform3D(-0.694789, 0.086177, 0.714032, -0.311288, 0.858955, -0.406567, -0.648358, -0.504748, -0.569967, 7.27399, 0.428717, -7.11512)
+mesh = ExtResource("3_3g3gi")
+
+[node name="TestRock4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.437097, 0.250471, 0.863835, -0.311288, 0.858955, -0.406567, -0.843828, -0.446611, -0.297478, -7.20096, 0.428717, 7.52567)
+mesh = ExtResource("3_3g3gi")
+
+[node name="TestRock3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.78549, -0.470336, -0.402231, -0.300011, 0.857852, -0.417233, 0.541295, -0.207058, -0.81494, -7.47063, 0.428717, -7.11512)
 mesh = ExtResource("3_3g3gi")
 
 [node name="TestTree" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0170097, 1.96264, 4.91086)
+transform = Transform3D(0.0509242, 0, -0.998703, 0, 1, 0, 0.998703, 0, 0.0509242, -4.61709, 1.80796, 4.94758)
+mesh = ExtResource("4_vg7ob")
+
+[node name="TestTree2" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.994993, 0, -0.099945, 0, 1, 0, 0.099945, 0, -0.994993, 0.309252, 1.80796, -4.41213)
+mesh = ExtResource("4_vg7ob")
+
+[node name="TestTree3" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.153859, 0.00172201, 0.988091, 0.00126737, 0.999997, -0.00194009, -0.988092, 0.00155075, 0.153857, 4.44942, 1.80796, 1.96103)
 mesh = ExtResource("4_vg7ob")
