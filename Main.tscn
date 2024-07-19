@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://br7msbnc7nljk"]
+
+[ext_resource type="ArrayMesh" uid="uid://d2qxq3e0o6f2t" path="res://test_plane.obj" id="1_csrf7"]
+[ext_resource type="ArrayMesh" uid="uid://cgl0s6j3dk4lc" path="res://test_rock1.obj" id="2_qenfe"]
+[ext_resource type="ArrayMesh" uid="uid://dsyraynl5hv6u" path="res://test_rock2.obj" id="3_3g3gi"]
+[ext_resource type="ArrayMesh" uid="uid://cq54f45jsxm3r" path="res://test_tree.obj" id="4_vg7ob"]
+
+[node name="Main" type="Node"]
+
+[node name="TestPlane" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0168762, -0.0197496, 0.0686116)
+mesh = ExtResource("1_csrf7")
+
+[node name="TestRock1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.012918, 1.43981, -0.044105)
+mesh = ExtResource("2_qenfe")
+
+[node name="TestRock2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50898, -4.5545)
+mesh = ExtResource("3_3g3gi")
+
+[node name="TestTree" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0170097, 1.96264, 4.91086)
+mesh = ExtResource("4_vg7ob")
